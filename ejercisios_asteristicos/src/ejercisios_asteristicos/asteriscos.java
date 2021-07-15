@@ -12,8 +12,8 @@ public class asteriscos {
 		Scanner Leer = new Scanner(System.in);
 		int n = Leer.nextInt();
 		
-		for (int fila = n; fila>= 0 ; fila--) {
-			for (int ast = 0; ast<= n ; ast++ ) {
+		for (int fila = n; fila>= 1 ; fila = - 1) {
+			for (int ast = 1; ast<= n ; ast = ast + 1 ) {
 				System.out.print("*");
 		}
 			System.out.println();	
