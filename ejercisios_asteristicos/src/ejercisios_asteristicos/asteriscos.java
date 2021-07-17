@@ -8,6 +8,8 @@ public class asteriscos {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//Muy buena codificacion 
+		
 		System.out.print("Introduce el numero de filas: ");
 		Scanner Leer = new Scanner(System.in);
 		int n = Leer.nextInt();
