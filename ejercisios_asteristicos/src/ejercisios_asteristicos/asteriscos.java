@@ -10,15 +10,20 @@ public class asteriscos {
 		
 		//Muy buena codificacion 
 		
-		System.out.print("Introduce el numero de filas: ");
+		System.out.println("---------Prueba 1--------- ");
 		Scanner Leer = new Scanner(System.in);
-		int n = Leer.nextInt();
-		
-		for (int fila = n; fila>= 0 ; fila --  ) {
-			for (int ast = 1; ast<= fila ; ast ++   ) {
-				System.out.print("*");
+		int num,suma;
+		 suma=0;
+		 do
+		 {
+		 System.out.print("Introduzca un número: ");
+		 num=Leer.nextInt();
+		 suma=suma+num;
+		 }
+		 while(num!=0);
+		 
+		 System.out.println("La suma de todos los números es: "+suma);
+		 
+		 }
 		}
-			System.out.println();	
-}
-	}
-}
+
