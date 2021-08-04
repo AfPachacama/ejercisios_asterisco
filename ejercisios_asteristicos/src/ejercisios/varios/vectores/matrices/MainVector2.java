@@ -10,12 +10,18 @@ public class MainVector2 {
 		// que pida al usuario que ingrese valores para cada posicion
 		//y finalemnte que se imprima todo los valores ingresados
 		
-        Scanner teclado= new Scanner(System.in);
+		Scanner entrada = new Scanner (System.in);
+	    int f = entrada.nextInt();
+//	    int f = entrada.nextInt();
+	    int c = entrada.nextInt();
 
-       System.out.println("Defina el tamaño de la matriz: ");
-        int[][] matriz = new int[teclado.nextInt()][teclado.nextInt()];
-        System.out.println(matriz);
-        
-//       
-	  } 
+	    int matriz [][]= new int [f][c];
+
+	    for (int i = 0; i < f; i++) {
+	        for (int j = 0; j < c; j++) {
+	            System.out.print(matriz[i][j]);
+	        }
+	        System.out.println();
+	    }
+	}
 }

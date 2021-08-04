@@ -16,10 +16,10 @@ public class MainVector1 {
 			char n = lector.next().charAt(0);
 			X[i]=n;
 			
-			//Recorriendo el vector lleno
-			for( int i=0;i<3;i++) {
-				System.out.println("El valor de posicion: "+i);
-				
+//			//Recorriendo el vector lleno
+//			for( int i=0;i<3;i++) {
+//				System.out.println("El valor de posicion: "+i);
+//				
 				
 			}
 			
@@ -27,4 +27,4 @@ public class MainVector1 {
 
 	}
 
-}
+
