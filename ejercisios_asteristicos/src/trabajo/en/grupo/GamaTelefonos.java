@@ -19,6 +19,7 @@ public class GamaTelefonos {
 		System.out.println("IMPORTADORA POWERGAMA");
 		System.out.println("*******************************************************************************************************************");
 		System.out.println("La Gama De Celulares disponibles son: ");
-		System.out.println("Marca: " + Marca + "\nModelo: " + Modelo + "\nColor: " + Color+"\nImei: "+imei+"\nCamara: "+Camara+"\nAlmacenamiento: "+Almacenamiento+"\nRam: " + Ram +"\nProcesador: "+ Procesador);
+		System.out.println("Marca: " + Marca + "\nModelo: " + Modelo + "\nColor: " + Color+"\nImei: "+imei+"\nCamara: "+Camara+"\nAlmacenamiento: "
+		+Almacenamiento+"\nRam: " + Ram +"\nProcesador: "+ Procesador);
 	}
 }
