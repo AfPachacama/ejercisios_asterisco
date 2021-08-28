@@ -1,6 +1,6 @@
 package tabla.ajedrez;
 
-public class PiezaAlfiles {
+public class PiezaAlfiles extends PosicionesPieza {
 	private String nombre;
 	private String ubictabla;
 	private int numpieza;

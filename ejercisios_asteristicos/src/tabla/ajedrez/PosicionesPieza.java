@@ -2,7 +2,7 @@ package tabla.ajedrez;
 
 import java.util.Arrays;
 
-public class PosicionesPieza {
+public abstract class PosicionesPieza {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -13,6 +13,7 @@ public class PosicionesPieza {
 		rey.setNumpieza(2);
 		rey.setUbictabla("Blancos: 0,4");
 		rey.setUbictabla("Negros: 4,7");
+		System.out.println(rey);
 		
 		
 		PiezaReina reina = new PiezaReina();
