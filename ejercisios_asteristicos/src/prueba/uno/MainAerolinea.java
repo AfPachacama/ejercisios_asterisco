@@ -76,7 +76,7 @@ public class MainAerolinea {
 		
 		PasajerosEconomicos eco = new PasajerosEconomicos();
 		eco.setNombre("Kevin");
-		eco.setApellido("Suntaxi");
+		eco.setApellido("Nacimba");
 		eco.setEdad(18);
 		eco.setTipoVuelo("ECONOMICO; PASILLO");
 		eco.setUbicacion("Fila 2; Columna 1");
@@ -85,9 +85,9 @@ public class MainAerolinea {
 		
 		
 		PasajerosEconomicos eco1 = new PasajerosEconomicos();
-		eco1.setNombre("Kevin");
+		eco1.setNombre("Tatiana");
 		eco1.setApellido("Suntaxi");
-		eco1.setEdad(18);
+		eco1.setEdad(24);
 		eco1.setTipoVuelo("ECONOMICO; PASILLO");
 		eco1.setUbicacion("Fila 2; Columna 2");
 		System.out.println("ASIENTOS ECONOMICOS");
@@ -95,9 +95,9 @@ public class MainAerolinea {
 		
 		
 		PasajerosEconomicos eco2 = new PasajerosEconomicos();
-		eco2.setNombre("Kevin");
+		eco2.setNombre("Jonatan");
 		eco2.setApellido("Suntaxi");
-		eco2.setEdad(18);
+		eco2.setEdad(11);
 		eco2.setTipoVuelo("ECONOMICO; PASILLO");
 		eco2.setUbicacion("Fila 2; Columna 3");
 		System.out.println("ASIENTOS ECONOMICOS");
@@ -105,9 +105,9 @@ public class MainAerolinea {
 		
 		
 		PasajerosEconomicos eco3 = new PasajerosEconomicos();
-		eco3.setNombre("Kevin");
-		eco3.setApellido("Suntaxi");
-		eco3.setEdad(18);
+		eco3.setNombre("Kev");
+		eco3.setApellido("Sunta");
+		eco3.setEdad(13);
 		eco3.setTipoVuelo("ECONOMICO; PASILLO");
 		eco3.setUbicacion("Fila 2; Columna 4");
 		System.out.println("ASIENTOS ECONOMICOS");
@@ -115,9 +115,9 @@ public class MainAerolinea {
 		
 		
 		PasajerosEconomicos eco4 = new PasajerosEconomicos();
-		eco4.setNombre("Kevin");
+		eco4.setNombre("Jordan");
 		eco4.setApellido("Suntaxi");
-		eco4.setEdad(18);
+		eco4.setEdad(17);
 		eco4.setTipoVuelo("ECONOMICO; PASILLO");
 		eco4.setUbicacion("Fila 2; Columna 5");
 		System.out.println("ASIENTOS ECONOMICOS");
